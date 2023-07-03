@@ -1,3 +1,5 @@
+
+   
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: var(--bs-navbar-nav-link-padding-x);
     padding-left: var(--bs-navbar-nav-link-padding-x);
@@ -6,17 +8,24 @@
 }
 
 .carousel-head{
-    color: rgb(245, 103, 21);   
+    color: #f1f1f1;;   
     font-size: 1.8rem;
     font-weight: 600;
  text-shadow: -2px 1px 2px rgb(0, 0, 0);
 }
 .carousel-subhead{
-    color: black;
-    text-shadow: -2px 1px 2px white;   
+    color: #213555;
+    
+    text-shadow: 2px 2px 2px rgb(250, 244, 244);   
     font-weight: 500;
 }
 img:Hover{
     cursor: pointer;
     box-shadow: 2px 2px 25px rgb(251, 132, 151);
+}
+img{
+    border-radius: 5px;
+}
+a:hover{
+    color: orange !important;
 }
