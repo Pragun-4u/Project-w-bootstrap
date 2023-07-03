@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TravelNest using bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #213555;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="images/bg.png" width="120px" style="filter: invert();" alt="TravelNest">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Exclusives</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Trending</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Our Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Browse for Houses.</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Already have a house?</a></li>
+            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item ">
+        <img src="images/px1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="carousel-head">Serene Ambience</h5>
+          <p class="carousel-subhead">TravelNest houses offer a home away from home, providing travelers with a
+            comfortable and personalized stay in unique and diverse locations around the globe.</p>
+        </div>
+      </div>
+      <div class="carousel-item active">
+        <img src="images/px2.jpg" class="d-block w-100" alt="images/house-1.png">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="carousel-head">Casual, Yet Personal Touch</h5>
+          <p class="carousel-subhead">TravelNest houses offer a home away from home, providing travelers with a
+            comfortable and personalized stay in unique and diverse locations around the globe..</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/px3.jpg" class="d-block w-100" alt="house 3">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="carousel-head">Pleasant Views</h5>
+          <p class="carousel-subhead">TravelNest houses offer a home away from home, providing travelers with a
+            comfortable and personalized stay in unique and diverse locations around the globe.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="display-6 text-center mt-3 mb-0" style="font-weight: 600;">Exclusives</h1>
+      </div>
+    </div>
+    <div class="row p-5 justify-content-evenly">
+      <div class="col-md-3 text-center">
+        <img class="Hover" src="images/santorini.jpg" width="250px" alt="santorini">
+      </div>
+      <h2 class="text-center">Santorini</h2>
+      <p class="text-center">"Santorini, with its breathtaking sunsets and iconic white-washed buildings perched on <br>
+        cliffs overlooking the Aegean Sea, is a dream destination for travelers seeking beauty and romance."</p>
+      <div class="col-md-3 text-center my-3">
+        <img class="Hover" src="images/paris.png" width="250px" alt="">
+        <h2 class="text-center">Paris</h2>
+        <p class="text-center">"Paris, the City of Light, captivates with its timeless elegance, iconic landmarks, and a
+          rich tapestry of art, culture, and culinary delights."</p>
+      </div>
+      <div class="col-md-3 text-center my-3">
+        <img class="Hover" src="images/dubai.png" width="250px" alt="">
+        <h2 class="text-center">Dubai</h2>
+        <p class="text-center">"Dubai, the gleaming jewel of the Middle East, astounds with its futuristic skyline,
+          extravagant architecture, and unparalleled luxury experiences."</p>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="display-6 text-center mt-3 mb-0" style="font-weight: 600;">Trending Places</h1>
+      </div>
+    </div>
+    <div class="row p-5 justify-content-evenly">
+      <div class="col-md-3 text-center">
+        <img class="Hover" src="images/barcelona.jpg" width="250px" alt="barcelona">
+      </div>
+      <h2 class="text-center">Barcelona</h2>
+      <p class="text-center">"Barcelona, the enchanting Mediterranean gem, entices with its vibrant culture, <br> stunning architecture, and a vibrant mix of beachside relaxation and urban adventures."</p>
+      <div class="col-md-3 text-center my-3">
+        <img class="Hover" src="images/new-delhi.png" width="250px" alt="">
+        <h2 class="text-center">New-delhi</h2>
+        <p class="text-center">"New Delhi, the bustling capital of India, immerses visitors in a tapestry of rich history, vibrant markets, and a fusion of traditional and modern lifestyles."</p>
+      </div>
+      <div class="col-md-3 text-center my-3">
+        <img class="Hover" src="images/amsterdam1.jpg" width="250px" alt="">
+        <h2 class="text-center">Amsterdam</h2>
+        <p class="text-center">"Amsterdam, the picturesque canal-laced city, delights with its charming architecture, artistic heritage, and a laid-back atmosphere that invites exploration and enjoyment."</p>
+      </div>
+    </div>
+  </div>
+  
+    <div class="row justify-content-evenly text-center">
+      <h2>Some of our Traveller stories</h2>
+      <div class="col-md-3 text-center justify-content-evenly mx-3">
+        <div class="card" style="width: 18rem;">
+          <img src="images/story-3.png" class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">John Doe</h5>
+            <p class="card-text">"We couldn't have asked for a better Airbnb experience - the host went above and beyond to make us feel welcome."</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 text-center" >
+        <div class="card" style="width: 18rem;">
+          <img src="images/pragun.webp" style="height: 286px"class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pragun Karande</h5>
+            <p class="card-text">Great Airbnb! Beautiful decor, awesome location, and helpful host. Highly recommend!</p>
+            <a href="#" class="btn btn-primary">
+              <i class="bi bi-facebook p-10"></i>
+            </a>
+            <a href="#" class="btn btn-danger">
+              <i class="bi bi-instagram p-10"></i>
+            </a>
+            <a href="#" class="btn btn-primary">
+              <i class="bi bi-linkedin p-10"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class="card" style="width: 18rem;">
+          <img src="images/story-2.png" class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Lionel Messi</h5>
+            <p class="card-text">"A TravelNest experience that surpassed all expectations and left us in awe."</p>
+            <a href="#" class="btn btn-danger">
+              <i class="bi bi-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
